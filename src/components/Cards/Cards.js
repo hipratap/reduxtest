@@ -5,7 +5,7 @@ import './Cards.css';
 import CheckList from './CheckList/CheckList';
 import Persons from './Persons/Persons';
 
-class Cards extends Component {
+export class Cards extends Component {
     
    
     render() {

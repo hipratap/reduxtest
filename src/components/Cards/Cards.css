@@ -1,11 +1,13 @@
 .Cards {
     width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-content: center;
     text-align: left;
-    margin-top: 150px;
+    padding-top: 50px;
+    height: 100vh;
+    box-sizing: border-box;
 }
 .Cards .PersonGroup {
     display: flex;
