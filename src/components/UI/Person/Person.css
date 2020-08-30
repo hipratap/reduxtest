@@ -1,0 +1,36 @@
+.Person {
+  display: block;
+  position: relative;
+  margin: 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #ccc;
+  text-align: left;
+}
+.Person:hover {
+  background-color: #aaa;
+}
+  
+.Person:before, .Person:after{
+  content:'';
+  position:absolute;
+  width:24px;
+  height:4px;
+  background-color:#333;
+  border-radius:2px;
+  top:22px;
+  right: 10px;
+}
+
+.Person:before{
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+.Person:after{
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}

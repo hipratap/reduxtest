@@ -1,0 +1,32 @@
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+}
+
+.NavigationItems li {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    color: #333;
+}
+
+.NavigationItems li a {
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+
+.NavigationItems li a:hover {
+    background-color: #333;
+    color: #fff;
+}
